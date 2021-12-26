@@ -1,0 +1,27 @@
+.NavBarDiv {
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  position: absolute;
+  top: 0;
+  width: 100vw;
+  height: 4rem;
+  background-color: rgb(120, 50, 50);
+}
+
+.title {
+  color: white;
+}
+
+.unorderedList {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.link {
+  font-size: 1.2rem;
+  padding: 0 2rem;
+  color: white;
+}
