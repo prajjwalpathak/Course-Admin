@@ -1,0 +1,4 @@
+.StudentsListDiv {
+  display: flex;
+  flex-direction: column;
+}

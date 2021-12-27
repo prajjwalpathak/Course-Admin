@@ -1,9 +1,11 @@
-import classes from "./HomeMain.module.css";
+import Main from "../Main/Main";
 
 const HomeMain = () => {
   return (
-    <div className={classes.HomeMainDiv}>
-    </div>
+    <Main>
+      <h1>XYZ University</h1>
+      <p>Application for Course Administrator</p>
+    </Main>
   );
 };
 
