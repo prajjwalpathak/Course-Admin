@@ -2,20 +2,19 @@
   margin: 0.2rem;
   display: flex;
   align-items: center;
-  border: 1px solid rgba(0, 0, 0, 0.3);
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 0px 3px;
   border-radius: 5px;
 }
 
 .reg {
-  margin: 0 1rem;
   color: black;
   padding: 0.5rem 1rem;
 }
 
 .name {
-  margin: 0 1rem 0 10rem;
+  margin-left: 10rem;
   color: black;
-  padding: 0.5rem 1rem;
+  padding: 0.5rem 4rem;
 }
 
 .link:hover {

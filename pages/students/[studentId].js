@@ -1,6 +1,7 @@
 import Head from "next/head";
 import Footer from "../../components/Footer/Footer";
 import NavBar from "../../components/NavBar/NavBar";
+import StudentMain from "../../components/StudentMain/StudentMain";
 
 const Student = () => {
   return (
@@ -9,6 +10,7 @@ const Student = () => {
         <title>Students - Student</title>
       </Head>
       <NavBar />
+      <StudentMain />
       <Footer />
     </div>
   );
