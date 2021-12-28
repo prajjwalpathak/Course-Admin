@@ -6,7 +6,7 @@ import classes from "./StudentMain.module.css";
 const StudentMain = () => {
   const router = useRouter();
   const regQuery = router.query.studentId;
-  const data = DATA.find((student) => student.reg === parseInt(regQuery));
+  const data = DATA.students.find((student) => student.reg === parseInt(regQuery));
 
   return (
     <Main>

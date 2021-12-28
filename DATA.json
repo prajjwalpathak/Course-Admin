@@ -1,508 +1,509 @@
-[
-    {
-        "key": 1,
-        "reg": 22001,
-        "name": "Student 1",
-        "courses": [
-            "Course 1",
-            "Course 2",
-            "Course 3"
-        ]
-    },
-    {
-        "key": 2,
-        "reg": 22002,
-        "name": "Student 2",
-        "courses": [
-            "Course 1",
-            "Course 2",
-            "Course 3",
-            "Course 4"
-        ]
-    },
-    {
-        "key": 3,
-        "reg": 22003,
-        "name": "Student 3",
-        "courses": [
-            "Course 1",
-            "Course 2",
-            "Course 3"
-        ]
-    },
-    {
-        "key": 4,
-        "reg": 22004,
-        "name": "Student 4",
-        "courses": [
-            "Course 5",
-            "Course 6",
-            "Course 7"
-        ]
-    },
-    {
-        "key": 5,
-        "reg": 22005,
-        "name": "Student 5",
-        "courses": [
-            "Course 5",
-            "Course 6",
-            "Course 7"
-        ]
-    },
-    {
-        "key": 6,
-        "reg": 22006,
-        "name": "Student 6",
-        "courses": [
-            "Course 1",
-            "Course 2",
-            "Course 4"
-        ]
-    },
-    {
-        "key": 7,
-        "reg": 22007,
-        "name": "Student 7",
-        "courses": [
-            "Course 1",
-            "Course 4",
-            "Course 7"
-        ]
-    },
-    {
-        "key": 8,
-        "reg": 22008,
-        "name": "Student 8",
-        "courses": [
-            "Course 2",
-            "Course 3",
-            "Course 8"
-        ]
-    },
-    {
-        "key": 9,
-        "reg": 22009,
-        "name": "Student 9",
-        "courses": [
-            "Course 1",
-            "Course 3",
-            "Course 10"
-        ]
-    },
-    {
-        "key": 10,
-        "reg": 22010,
-        "name": "Student 10",
-        "courses": [
-            "Course 3",
-            "Course 5",
-            "Course 9"
-        ]
-    },
-    {
-        "key": 11,
-        "reg": 22011,
-        "name": "Student 11",
-        "courses": [
-            "Course 1",
-            "Course 2",
-            "Course 3"
-        ]
-    },
-    {
-        "key": 12,
-        "reg": 22012,
-        "name": "Student 12",
-        "courses": [
-            "Course 1",
-            "Course 2",
-            "Course 3",
-            "Course 4"
-        ]
-    },
-    {
-        "key": 13,
-        "reg": 22013,
-        "name": "Student 13",
-        "courses": [
-            "Course 1",
-            "Course 2",
-            "Course 3"
-        ]
-    },
-    {
-        "key": 14,
-        "reg": 22014,
-        "name": "Student 14",
-        "courses": [
-            "Course 5",
-            "Course 6",
-            "Course 7"
-        ]
-    },
-    {
-        "key": 15,
-        "reg": 22015,
-        "name": "Student 15",
-        "courses": [
-            "Course 5",
-            "Course 6",
-            "Course 7"
-        ]
-    },
-    {
-        "key": 16,
-        "reg": 22016,
-        "name": "Student 16",
-        "courses": [
-            "Course 1",
-            "Course 2",
-            "Course 4"
-        ]
-    },
-    {
-        "key": 17,
-        "reg": 22017,
-        "name": "Student 17",
-        "courses": [
-            "Course 1",
-            "Course 4",
-            "Course 7"
-        ]
-    },
-    {
-        "key": 18,
-        "reg": 22018,
-        "name": "Student 18",
-        "courses": [
-            "Course 2",
-            "Course 3",
-            "Course 8"
-        ]
-    },
-    {
-        "key": 19,
-        "reg": 22019,
-        "name": "Student 19",
-        "courses": [
-            "Course 1",
-            "Course 3",
-            "Course 10"
-        ]
-    },
-    {
-        "key": 20,
-        "reg": 22020,
-        "name": "Student 20",
-        "courses": [
-            "Course 3",
-            "Course 5",
-            "Course 9"
-        ]
-    },
-    {
-        "key": 21,
-        "reg": 22021,
-        "name": "Student 21",
-        "courses": [
-            "Course 1",
-            "Course 2",
-            "Course 3"
-        ]
-    },
-    {
-        "key": 22,
-        "reg": 22022,
-        "name": "Student 22",
-        "courses": [
-            "Course 1",
-            "Course 2",
-            "Course 3",
-            "Course 4"
-        ]
-    },
-    {
-        "key": 23,
-        "reg": 22023,
-        "name": "Student 23",
-        "courses": [
-            "Course 1",
-            "Course 2",
-            "Course 3"
-        ]
-    },
-    {
-        "key": 24,
-        "reg": 22024,
-        "name": "Student 24",
-        "courses": [
-            "Course 5",
-            "Course 6",
-            "Course 7"
-        ]
-    },
-    {
-        "key": 25,
-        "reg": 22025,
-        "name": "Student 25",
-        "courses": [
-            "Course 5",
-            "Course 6",
-            "Course 7"
-        ]
-    },
-    {
-        "key": 26,
-        "reg": 22026,
-        "name": "Student 26",
-        "courses": [
-            "Course 1",
-            "Course 2",
-            "Course 4"
-        ]
-    },
-    {
-        "key": 27,
-        "reg": 22027,
-        "name": "Student 27",
-        "courses": [
-            "Course 1",
-            "Course 4",
-            "Course 7"
-        ]
-    },
-    {
-        "key": 28,
-        "reg": 22028,
-        "name": "Student 28",
-        "courses": [
-            "Course 2",
-            "Course 3",
-            "Course 8"
-        ]
-    },
-    {
-        "key": 29,
-        "reg": 22029,
-        "name": "Student 29",
-        "courses": [
-            "Course 1",
-            "Course 3",
-            "Course 10"
-        ]
-    },
-    {
-        "key": 30,
-        "reg": 22030,
-        "name": "Student 30",
-        "courses": [
-            "Course 3",
-            "Course 5",
-            "Course 9"
-        ]
-    },
-    {
-        "key": 31,
-        "reg": 22031,
-        "name": "Student 31",
-        "courses": [
-            "Course 1",
-            "Course 2",
-            "Course 3"
-        ]
-    },
-    {
-        "key": 32,
-        "reg": 22032,
-        "name": "Student 32",
-        "courses": [
-            "Course 1",
-            "Course 2",
-            "Course 3",
-            "Course 4"
-        ]
-    },
-    {
-        "key": 33,
-        "reg": 22033,
-        "name": "Student 33",
-        "courses": [
-            "Course 1",
-            "Course 2",
-            "Course 3"
-        ]
-    },
-    {
-        "key": 34,
-        "reg": 22034,
-        "name": "Student 34",
-        "courses": [
-            "Course 5",
-            "Course 6",
-            "Course 7"
-        ]
-    },
-    {
-        "key": 35,
-        "reg": 22035,
-        "name": "Student 35",
-        "courses": [
-            "Course 5",
-            "Course 6",
-            "Course 7"
-        ]
-    },
-    {
-        "key": 36,
-        "reg": 22036,
-        "name": "Student 36",
-        "courses": [
-            "Course 1",
-            "Course 2",
-            "Course 4"
-        ]
-    },
-    {
-        "key": 37,
-        "reg": 22037,
-        "name": "Student 37",
-        "courses": [
-            "Course 1",
-            "Course 4",
-            "Course 7"
-        ]
-    },
-    {
-        "key": 38,
-        "reg": 22038,
-        "name": "Student 38",
-        "courses": [
-            "Course 2",
-            "Course 3",
-            "Course 8"
-        ]
-    },
-    {
-        "key": 39,
-        "reg": 22039,
-        "name": "Student 39",
-        "courses": [
-            "Course 1",
-            "Course 3",
-            "Course 10"
-        ]
-    },
-    {
-        "key": 40,
-        "reg": 22040,
-        "name": "Student 40",
-        "courses": [
-            "Course 3",
-            "Course 5",
-            "Course 9"
-        ]
-    },
-    {
-        "key": 41,
-        "reg": 22041,
-        "name": "Student 41",
-        "courses": [
-            "Course 1",
-            "Course 2",
-            "Course 3"
-        ]
-    },
-    {
-        "key": 42,
-        "reg": 22042,
-        "name": "Student 42",
-        "courses": [
-            "Course 1",
-            "Course 2",
-            "Course 3",
-            "Course 4"
-        ]
-    },
-    {
-        "key": 43,
-        "reg": 22043,
-        "name": "Student 43",
-        "courses": [
-            "Course 1",
-            "Course 2",
-            "Course 3"
-        ]
-    },
-    {
-        "key": 44,
-        "reg": 22044,
-        "name": "Student 44",
-        "courses": [
-            "Course 5",
-            "Course 6",
-            "Course 7"
-        ]
-    },
-    {
-        "key": 45,
-        "reg": 22045,
-        "name": "Student 45",
-        "courses": [
-            "Course 5",
-            "Course 6",
-            "Course 7"
-        ]
-    },
-    {
-        "key": 46,
-        "reg": 22046,
-        "name": "Student 46",
-        "courses": [
-            "Course 1",
-            "Course 2",
-            "Course 4"
-        ]
-    },
-    {
-        "key": 47,
-        "reg": 22047,
-        "name": "Student 47",
-        "courses": [
-            "Course 1",
-            "Course 4",
-            "Course 7"
-        ]
-    },
-    {
-        "key": 48,
-        "reg": 22048,
-        "name": "Student 48",
-        "courses": [
-            "Course 2",
-            "Course 3",
-            "Course 8"
-        ]
-    },
-    {
-        "key": 49,
-        "reg": 22049,
-        "name": "Student 49",
-        "courses": [
-            "Course 1",
-            "Course 3",
-            "Course 10"
-        ]
-    },
-    {
-        "key": 50,
-        "reg": 22050,
-        "name": "Student 50",
-        "courses": [
-            "Course 3",
-            "Course 5",
-            "Course 9"
-        ]
-    }
-    
-]
+{
+    "students": [
+        {
+            "key": 1,
+            "reg": 22001,
+            "name": "Student 1",
+            "courses": [
+                "Course 1",
+                "Course 2",
+                "Course 3"
+            ]
+        },
+        {
+            "key": 2,
+            "reg": 22002,
+            "name": "Student 2",
+            "courses": [
+                "Course 1",
+                "Course 2",
+                "Course 3",
+                "Course 4"
+            ]
+        },
+        {
+            "key": 3,
+            "reg": 22003,
+            "name": "Student 3",
+            "courses": [
+                "Course 1",
+                "Course 2",
+                "Course 3"
+            ]
+        },
+        {
+            "key": 4,
+            "reg": 22004,
+            "name": "Student 4",
+            "courses": [
+                "Course 5",
+                "Course 6",
+                "Course 7"
+            ]
+        },
+        {
+            "key": 5,
+            "reg": 22005,
+            "name": "Student 5",
+            "courses": [
+                "Course 5",
+                "Course 6",
+                "Course 7"
+            ]
+        },
+        {
+            "key": 6,
+            "reg": 22006,
+            "name": "Student 6",
+            "courses": [
+                "Course 1",
+                "Course 2",
+                "Course 4"
+            ]
+        },
+        {
+            "key": 7,
+            "reg": 22007,
+            "name": "Student 7",
+            "courses": [
+                "Course 1",
+                "Course 4",
+                "Course 7"
+            ]
+        },
+        {
+            "key": 8,
+            "reg": 22008,
+            "name": "Student 8",
+            "courses": [
+                "Course 2",
+                "Course 3",
+                "Course 8"
+            ]
+        },
+        {
+            "key": 9,
+            "reg": 22009,
+            "name": "Student 9",
+            "courses": [
+                "Course 1",
+                "Course 3",
+                "Course 10"
+            ]
+        },
+        {
+            "key": 10,
+            "reg": 22010,
+            "name": "Student 10",
+            "courses": [
+                "Course 3",
+                "Course 5",
+                "Course 9"
+            ]
+        },
+        {
+            "key": 11,
+            "reg": 22011,
+            "name": "Student 11",
+            "courses": [
+                "Course 1",
+                "Course 2",
+                "Course 3"
+            ]
+        },
+        {
+            "key": 12,
+            "reg": 22012,
+            "name": "Student 12",
+            "courses": [
+                "Course 1",
+                "Course 2",
+                "Course 3",
+                "Course 4"
+            ]
+        },
+        {
+            "key": 13,
+            "reg": 22013,
+            "name": "Student 13",
+            "courses": [
+                "Course 1",
+                "Course 2",
+                "Course 3"
+            ]
+        },
+        {
+            "key": 14,
+            "reg": 22014,
+            "name": "Student 14",
+            "courses": [
+                "Course 5",
+                "Course 6",
+                "Course 7"
+            ]
+        },
+        {
+            "key": 15,
+            "reg": 22015,
+            "name": "Student 15",
+            "courses": [
+                "Course 5",
+                "Course 6",
+                "Course 7"
+            ]
+        },
+        {
+            "key": 16,
+            "reg": 22016,
+            "name": "Student 16",
+            "courses": [
+                "Course 1",
+                "Course 2",
+                "Course 4"
+            ]
+        },
+        {
+            "key": 17,
+            "reg": 22017,
+            "name": "Student 17",
+            "courses": [
+                "Course 1",
+                "Course 4",
+                "Course 7"
+            ]
+        },
+        {
+            "key": 18,
+            "reg": 22018,
+            "name": "Student 18",
+            "courses": [
+                "Course 2",
+                "Course 3",
+                "Course 8"
+            ]
+        },
+        {
+            "key": 19,
+            "reg": 22019,
+            "name": "Student 19",
+            "courses": [
+                "Course 1",
+                "Course 3",
+                "Course 10"
+            ]
+        },
+        {
+            "key": 20,
+            "reg": 22020,
+            "name": "Student 20",
+            "courses": [
+                "Course 3",
+                "Course 5",
+                "Course 9"
+            ]
+        },
+        {
+            "key": 21,
+            "reg": 22021,
+            "name": "Student 21",
+            "courses": [
+                "Course 1",
+                "Course 2",
+                "Course 3"
+            ]
+        },
+        {
+            "key": 22,
+            "reg": 22022,
+            "name": "Student 22",
+            "courses": [
+                "Course 1",
+                "Course 2",
+                "Course 3",
+                "Course 4"
+            ]
+        },
+        {
+            "key": 23,
+            "reg": 22023,
+            "name": "Student 23",
+            "courses": [
+                "Course 1",
+                "Course 2",
+                "Course 3"
+            ]
+        },
+        {
+            "key": 24,
+            "reg": 22024,
+            "name": "Student 24",
+            "courses": [
+                "Course 5",
+                "Course 6",
+                "Course 7"
+            ]
+        },
+        {
+            "key": 25,
+            "reg": 22025,
+            "name": "Student 25",
+            "courses": [
+                "Course 5",
+                "Course 6",
+                "Course 7"
+            ]
+        },
+        {
+            "key": 26,
+            "reg": 22026,
+            "name": "Student 26",
+            "courses": [
+                "Course 1",
+                "Course 2",
+                "Course 4"
+            ]
+        },
+        {
+            "key": 27,
+            "reg": 22027,
+            "name": "Student 27",
+            "courses": [
+                "Course 1",
+                "Course 4",
+                "Course 7"
+            ]
+        },
+        {
+            "key": 28,
+            "reg": 22028,
+            "name": "Student 28",
+            "courses": [
+                "Course 2",
+                "Course 3",
+                "Course 8"
+            ]
+        },
+        {
+            "key": 29,
+            "reg": 22029,
+            "name": "Student 29",
+            "courses": [
+                "Course 1",
+                "Course 3",
+                "Course 10"
+            ]
+        },
+        {
+            "key": 30,
+            "reg": 22030,
+            "name": "Student 30",
+            "courses": [
+                "Course 3",
+                "Course 5",
+                "Course 9"
+            ]
+        },
+        {
+            "key": 31,
+            "reg": 22031,
+            "name": "Student 31",
+            "courses": [
+                "Course 1",
+                "Course 2",
+                "Course 3"
+            ]
+        },
+        {
+            "key": 32,
+            "reg": 22032,
+            "name": "Student 32",
+            "courses": [
+                "Course 1",
+                "Course 2",
+                "Course 3",
+                "Course 4"
+            ]
+        },
+        {
+            "key": 33,
+            "reg": 22033,
+            "name": "Student 33",
+            "courses": [
+                "Course 1",
+                "Course 2",
+                "Course 3"
+            ]
+        },
+        {
+            "key": 34,
+            "reg": 22034,
+            "name": "Student 34",
+            "courses": [
+                "Course 5",
+                "Course 6",
+                "Course 7"
+            ]
+        },
+        {
+            "key": 35,
+            "reg": 22035,
+            "name": "Student 35",
+            "courses": [
+                "Course 5",
+                "Course 6",
+                "Course 7"
+            ]
+        },
+        {
+            "key": 36,
+            "reg": 22036,
+            "name": "Student 36",
+            "courses": [
+                "Course 1",
+                "Course 2",
+                "Course 4"
+            ]
+        },
+        {
+            "key": 37,
+            "reg": 22037,
+            "name": "Student 37",
+            "courses": [
+                "Course 1",
+                "Course 4",
+                "Course 7"
+            ]
+        },
+        {
+            "key": 38,
+            "reg": 22038,
+            "name": "Student 38",
+            "courses": [
+                "Course 2",
+                "Course 3",
+                "Course 8"
+            ]
+        },
+        {
+            "key": 39,
+            "reg": 22039,
+            "name": "Student 39",
+            "courses": [
+                "Course 1",
+                "Course 3",
+                "Course 10"
+            ]
+        },
+        {
+            "key": 40,
+            "reg": 22040,
+            "name": "Student 40",
+            "courses": [
+                "Course 3",
+                "Course 5",
+                "Course 9"
+            ]
+        },
+        {
+            "key": 41,
+            "reg": 22041,
+            "name": "Student 41",
+            "courses": [
+                "Course 1",
+                "Course 2",
+                "Course 3"
+            ]
+        },
+        {
+            "key": 42,
+            "reg": 22042,
+            "name": "Student 42",
+            "courses": [
+                "Course 1",
+                "Course 2",
+                "Course 3",
+                "Course 4"
+            ]
+        },
+        {
+            "key": 43,
+            "reg": 22043,
+            "name": "Student 43",
+            "courses": [
+                "Course 1",
+                "Course 2",
+                "Course 3"
+            ]
+        },
+        {
+            "key": 44,
+            "reg": 22044,
+            "name": "Student 44",
+            "courses": [
+                "Course 5",
+                "Course 6",
+                "Course 7"
+            ]
+        },
+        {
+            "key": 45,
+            "reg": 22045,
+            "name": "Student 45",
+            "courses": [
+                "Course 5",
+                "Course 6",
+                "Course 7"
+            ]
+        },
+        {
+            "key": 46,
+            "reg": 22046,
+            "name": "Student 46",
+            "courses": [
+                "Course 1",
+                "Course 2",
+                "Course 4"
+            ]
+        },
+        {
+            "key": 47,
+            "reg": 22047,
+            "name": "Student 47",
+            "courses": [
+                "Course 1",
+                "Course 4",
+                "Course 7"
+            ]
+        },
+        {
+            "key": 48,
+            "reg": 22048,
+            "name": "Student 48",
+            "courses": [
+                "Course 2",
+                "Course 3",
+                "Course 8"
+            ]
+        },
+        {
+            "key": 49,
+            "reg": 22049,
+            "name": "Student 49",
+            "courses": [
+                "Course 1",
+                "Course 3",
+                "Course 10"
+            ]
+        },
+        {
+            "key": 50,
+            "reg": 22050,
+            "name": "Student 50",
+            "courses": [
+                "Course 3",
+                "Course 5",
+                "Course 9"
+            ]
+        }
+    ]
+}
