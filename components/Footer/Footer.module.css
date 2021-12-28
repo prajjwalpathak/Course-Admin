@@ -1,11 +1,11 @@
 .FooterDiv {
-    position: absolute;
+    position: relative;
     display: flex;
     align-items: center;
     justify-content: center;
     color: white;
     bottom: 0;
     width: 100vw;
-    height: 3rem;
+    min-height: 10vh;
     background-color: brown;
 }

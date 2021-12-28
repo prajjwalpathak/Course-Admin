@@ -1,10 +1,10 @@
 import Main from "../Main/Main";
-import StudentsList from "../StudentsList/StudentsList";
+import PaginationPage from "../PaginationPage/PaginationPage";
 
 const StudentsMain = () => {
   return (
     <Main>
-      <StudentsList />
+      <PaginationPage />
     </Main>
   );
 };

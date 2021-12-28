@@ -1,9 +1,11 @@
-import DATA from "../../DATA";
 import ListItem from "../ListItem/ListItem";
 import ListWrapper from "../ListWrapper/ListWrapper";
 import classes from "./StudentsList.module.css";
 
-const StudentsList = () => {
+const StudentsList = (props) => {
+
+  const data = props.data;
+  
   return (
     <div className={classes.StudentsListDiv}>
       <div className={classes.listTitlesDiv}>
@@ -11,7 +13,7 @@ const StudentsList = () => {
         <span className={classes.name}>Student Name</span>
       </div>
       <ListWrapper>
-        {DATA.map((student) => (
+        {data.map((student) => (
           <ListItem key={student.key} reg={student.reg} name={student.name} />
         ))}
       </ListWrapper>
