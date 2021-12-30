@@ -1,9 +1,20 @@
+import axios from "../../pages/api/students";
 import classes from "./CourseList.module.css";
 
 const CourseList = (props) => {
+  const courseList = props.courses;
   const deleteCourse = (course) => {
-    props.courses.splice(props.courses.indexOf(course), 1);
-    props.updateCourseList(props.courses);
+    courseList.splice(courseList.indexOf(course), 1);
+    axios
+      .patch(`/students/${props.id}`, {
+        courses: [...courseList],
+      })
+      .then(function (res) {
+        props.updateCourseList(res.data.courses);
+      })
+      .catch(function (error) {
+        console.log(error);
+      });
   };
 
   return (

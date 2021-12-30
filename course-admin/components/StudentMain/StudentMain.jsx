@@ -7,24 +7,23 @@ import StudentCard from "../StudentCard/StudentCard";
 import CourseSelector from "../CourseSelector/CourseSelector";
 
 const StudentMain = () => {
+  const [data, setData] = useState(null);
   const router = useRouter();
-
-  const [DATA, setDATA] = useState(null);
+  const regQuery = router.query.studentId;
 
   useEffect(() => {
-    axios.get("/students").then((response) => {
-      setDATA(response.data);
+    if (!router.isReady) return;
+    axios.get(`/students?reg=${regQuery}`).then((response) => {
+      setData(response.data);
     });
-  }, []);
-  if (!DATA) return null;
+  }, [router.isReady, regQuery]);
 
-  const regQuery = router.query.studentId;
-  const data = DATA.find((student) => student.reg === parseInt(regQuery));
+  if (!data) return null;
 
   return (
     <Main>
-      <StudentCard reg={data.reg} name={data.name} />
-      <CourseSelector courses={data.courses} />
+      <StudentCard reg={data[0].reg} name={data[0].name} />
+      <CourseSelector courses={data[0].courses} reg={data[0].reg} id={data[0].id} />
     </Main>
   );
 };

@@ -12,12 +12,8 @@ const StudentsList = (props) => {
         <span className={classes.name}>Student Name</span>
       </div>
       <ListWrapper>
-        {data.map((student) => (
-          <ListItem
-            key={student.key}
-            reg={student.reg}
-            name={student.name}
-          />
+        {data.map((student, key) => (
+          <ListItem key={key} reg={student.reg} name={student.name} />
         ))}
       </ListWrapper>
     </div>
