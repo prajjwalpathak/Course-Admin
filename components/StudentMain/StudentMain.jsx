@@ -1,18 +1,30 @@
+import React, { useEffect, useState } from "react";
 import { useRouter } from "next/router";
-import DATA from "../../DATA.json";
+import axios from "../../pages/api/students";
 import Main from "../Main/Main";
 import classes from "./StudentMain.module.css";
+import StudentCard from "../StudentCard/StudentCard";
+import CourseSelector from "../CourseSelector/CourseSelector";
 
 const StudentMain = () => {
   const router = useRouter();
+
+  const [DATA, setDATA] = useState(null);
+
+  useEffect(() => {
+    axios.get("/students").then((response) => {
+      setDATA(response.data);
+    });
+  }, []);
+  if (!DATA) return null;
+
   const regQuery = router.query.studentId;
-  const data = DATA.students.find((student) => student.reg === parseInt(regQuery));
+  const data = DATA.find((student) => student.reg === parseInt(regQuery));
 
   return (
     <Main>
-      <span>{data.reg}</span>
-      <span>{data.name}</span>
-      <span>{data.courses}</span>
+      <StudentCard reg={data.reg} name={data.name} />
+      <CourseSelector courses={data.courses} />
     </Main>
   );
 };

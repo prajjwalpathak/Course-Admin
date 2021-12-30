@@ -3,9 +3,8 @@ import ListWrapper from "../ListWrapper/ListWrapper";
 import classes from "./StudentsList.module.css";
 
 const StudentsList = (props) => {
-
   const data = props.data;
-  
+
   return (
     <div className={classes.StudentsListDiv}>
       <div className={classes.listTitlesDiv}>
@@ -14,7 +13,11 @@ const StudentsList = (props) => {
       </div>
       <ListWrapper>
         {data.map((student) => (
-          <ListItem key={student.key} reg={student.reg} name={student.name} />
+          <ListItem
+            key={student.key}
+            reg={student.reg}
+            name={student.name}
+          />
         ))}
       </ListWrapper>
     </div>
