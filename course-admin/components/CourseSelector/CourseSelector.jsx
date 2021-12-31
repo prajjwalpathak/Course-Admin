@@ -21,10 +21,13 @@ const CourseSelector = ({ courses, id }) => {
     "Course 10",
   ];
 
+  //Function to add a course to the list of selected courses of the student
   const addCourse = (course) => {
     if (courseList.includes(course)) {
       return alert("Course already selected.");
     } else {
+
+      //Creating a PATCH request using Axios to update the selected courses of the student in the database
       axios
         .patch(`/students/${id}`, {
           courses: [...courseList, course],

@@ -8,6 +8,7 @@ const PaginationPage = () => {
   const [DATA, setDATA] = useState(null);
   const [page, setPage] = useState(1);
 
+  //Creating a GET request using Axios to get all the data from the students database
   useEffect(() => {
     axios.get("/students").then((res) => {
       setDATA(res.data);
@@ -19,6 +20,7 @@ const PaginationPage = () => {
   const studentsPerPage = 10;
   const pageCount = Math.ceil(DATA.length / studentsPerPage);
 
+  //Function to handle the change when the user clicks the next page or a specific page number
   const handleChange = (event, value) => setPage(value);
 
   const pagesVisited = (page - 1) * studentsPerPage;

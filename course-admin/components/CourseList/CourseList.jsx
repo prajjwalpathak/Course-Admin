@@ -5,8 +5,12 @@ import classes from "./CourseList.module.css";
 
 const CourseList = ({ id, courses, updateCourseList }) => {
   const courseList = courses;
+
+  //Function to delete a course from the selected courses 
   const deleteCourse = (course) => {
     courseList.splice(courseList.indexOf(course), 1);
+
+    //Creating a PATCH request using Axios to update the selected courses of the student in the database
     axios
       .patch(`/students/${id}`, {
         courses: [...courseList],
