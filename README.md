@@ -14,23 +14,25 @@ server-api $ npm install
 server-api $ npm start
 ```
 
-Second, run the Next.js App:
+To run the Course-Admin App:
 
 ```
 $ cd course-admin
 ```
 ```
-server-api $ npm install
+course-admin $ npm install
 ```
 ```
-server-api $ npm run dev
+course-admin $ npm run dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the Course-Admin App.
 
 Open [http://localhost:3001/students](http://localhost:3001/students) with your browser to see the database.
 
+<br><br>
 
+___
 ## Technical Stack
 
 This is a Next.js project.
@@ -55,6 +57,12 @@ This is a Next.js project.
 - [ ] Add Dockerfile and Docker Compose
 - [ ] Authentication for the APIs
 
+## Screenshots
+
+<img src="screenshots/home.png">
+<img src="screenshots/students.png">
+<img src="screenshots/student.png">
+
 ## Commits
 
-<img src="commits.jpg">
+<img src="screenshots/commits.png">
