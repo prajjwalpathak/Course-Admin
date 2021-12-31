@@ -57,4 +57,4 @@ This is a Next.js project.
 
 ## Commits
 
-![Commits](/commits.png)
+<img src="commits.jpg">
