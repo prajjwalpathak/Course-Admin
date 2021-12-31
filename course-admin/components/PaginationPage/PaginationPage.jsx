@@ -2,7 +2,6 @@ import React, { useEffect, useState } from "react";
 import axios from "../../pages/api/students";
 import StudentsList from "../StudentsList/StudentsList";
 import Pagination from "@mui/material/Pagination";
-import Stack from "@mui/material/Stack";
 import classes from "./PaginationPage.module.css";
 
 const PaginationPage = () => {
@@ -10,8 +9,8 @@ const PaginationPage = () => {
   const [page, setPage] = useState(1);
 
   useEffect(() => {
-    axios.get("/students").then((response) => {
-      setDATA(response.data);
+    axios.get("/students").then((res) => {
+      setDATA(res.data);
     });
   }, []);
 
@@ -28,15 +27,13 @@ const PaginationPage = () => {
   return (
     <div className={classes.PaginationDiv}>
       <StudentsList data={data} />
-      <Stack spacing={2}>
-        <Pagination
-          count={pageCount}
-          shape="rounded"
-          color="primary"
-          page={page}
-          onChange={handleChange}
-        />
-      </Stack>
+      <Pagination
+        count={pageCount}
+        shape="rounded"
+        color="primary"
+        page={page}
+        onChange={handleChange}
+      />
     </div>
   );
 };

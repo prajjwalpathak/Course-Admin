@@ -1,11 +1,11 @@
-import Main from "../Main/Main";
 import PaginationPage from "../PaginationPage/PaginationPage";
+import classes from "./StudentsMain.module.css";
 
 const StudentsMain = () => {
   return (
-    <Main>
+    <div className={classes.StudentsMainDiv}>
       <PaginationPage />
-    </Main>
+    </div>
   );
 };
 

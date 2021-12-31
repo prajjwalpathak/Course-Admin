@@ -1,29 +1,12 @@
 import axios from "../../pages/api/students";
 import { useState } from "react";
 import CourseList from "../CourseList/CourseList";
+import Button from "@mui/material/Button";
+import AddCircleOutlineIcon from "@mui/icons-material/AddCircleOutline";
 import classes from "./CourseSelector.module.css";
 
-const CourseSelector = (props) => {
-  const [courseList, setCourseList] = useState(props.courses);
-
-  const addCourse = (course) => {
-    if (courseList.includes(course)) {
-      return alert(
-        "The Course is already present. Please choose a different course."
-      );
-    } else {
-      axios
-        .patch(`/students/${props.id}`, {
-          courses: [...courseList, course],
-        })
-        .then(function (res) {
-          setCourseList(res.data.courses);
-        })
-        .catch(function (error) {
-          console.log(error);
-        });
-    }
-  };
+const CourseSelector = ({ courses, id }) => {
+  const [courseList, setCourseList] = useState(courses);
 
   const allCourses = [
     "Course 1",
@@ -38,18 +21,53 @@ const CourseSelector = (props) => {
     "Course 10",
   ];
 
+  const addCourse = (course) => {
+    if (courseList.includes(course)) {
+      return alert("Course already selected.");
+    } else {
+      axios
+        .patch(`/students/${id}`, {
+          courses: [...courseList, course],
+        })
+        .then(function (res) {
+          setCourseList(res.data.courses);
+        })
+        .catch(function (error) {
+          console.log(error);
+        });
+    }
+  };
+
   return (
     <div className={classes.CourseSelectorDiv}>
       <CourseList
-        id={props.id}
+        id={id}
         courses={courseList}
         updateCourseList={setCourseList}
       />
-      <div>
+      <div className={classes.allCoursesDiv}>
+        <h3 className={classes.addCoursesTitle}>Select Courses</h3>
         {allCourses.map((course, key) => {
           return (
-            <div key={key}>
-              <button onClick={() => addCourse(course)}>{course}</button>
+            <div key={key} className={classes.allCoursesButtonsDiv}>
+              <Button
+                sx={{
+                  margin: "0.5rem 1rem",
+                  background: "rgb(0, 0, 100)",
+                  minWidth: "8rem",
+                  "&:hover": { background: "rgb(50, 50, 150)" },
+                }}
+                size="small"
+                variant="contained"
+                endIcon={
+                  <AddCircleOutlineIcon
+                    sx={{ width: "1.5rem", height: "1.5rem" }}
+                    onClick={() => addCourse(course)}
+                  />
+                }
+              >
+                {course}
+              </Button>
             </div>
           );
         })}

@@ -1,0 +1,12 @@
+.StudentDiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.StudentsDiv {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
