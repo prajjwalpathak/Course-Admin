@@ -1,6 +1,16 @@
-A simple application for an Admin in a University to manually choose courses for students. 
+## Course-Admin
+
+A simple Next.js application for an Admin in a University to manually choose courses for students. 
 
 ## Getting Started
+
+- Install [Node.js](https://nodejs.org/en/) in your system.
+- Clone the <b>Course-Admin</b> repository.
+- Change the directory to the cloned repository in your terminal and follow the steps below,
+
+```
+Course-Admin $
+```
 
 First, run the Json-server:
 
@@ -26,6 +36,8 @@ course-admin $ npm install
 course-admin $ npm run dev
 ```
 
+Your App is up and running on <b>localhost:3000</b>
+
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the Course-Admin App.
 
 Open [http://localhost:3001/students](http://localhost:3001/students) with your browser to see the database.
@@ -43,7 +55,7 @@ This is a Next.js project.
 - [React.js](https://reactjs.org/)
 - [Node.js](https://nodejs.org/en/)
 - [Json-Server](https://github.com/typicode/json-server)
-- [Axios](https://axios-http.com/)
+- [Axios](https://axios-http.com/) 
 
 ## Features
 
