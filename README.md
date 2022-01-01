@@ -30,6 +30,8 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 Open [http://localhost:3001/students](http://localhost:3001/students) with your browser to see the database.
 
+If you want to edit the database manually then directly edit the <b>db.json</b> file in the <b>server-api</b> directory.
+
 <br><br>
 
 ___
