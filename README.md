@@ -64,19 +64,8 @@ This is a Next.js project.
 3.	Upon click on the list item, display the selected courses for that specific student
 4.	Also, add the option to choose some courses for that student
 
-## Additional Features
-
-- [x] Application is responsive on mobile devices too
-- [ ] Unit tests to your code
-- [ ] Add Dockerfile and Docker Compose
-- [ ] Authentication for the APIs
-
 ## Screenshots
 
 <img src="screenshots/home.png">
 <img src="screenshots/students.png">
 <img src="screenshots/student.png">
-
-## Commits
-
-<img src="screenshots/commits.png">
